@@ -1,0 +1,13 @@
+Steps to run:
+	1.Open new Java project
+	2.Add the filebased-database.jar and json-simple-1.1.jar to the Java Build Path
+ 		Java Buil Path->Libraries->Add External JARs
+	3.Import file_based_library.* in Test class
+	4.Run Test class
+
+Methods available in fileDatabase class
+
+  fileDatabase getInstance() --> To get object of fileDatabase class
+  createDatabase() --> To create database
+  readFromDatabase() --> To read from database
+  deleteFromDatabase() --> To delete key-valu from database
